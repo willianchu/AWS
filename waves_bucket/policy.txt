@@ -8,7 +8,7 @@
         "s3:GetObject"
       ],
       "Effect": "Allow",
-      "Resource": "Your_Bucket_ARN/*",
+      "Resource": "arn:aws:s3:::lab-waves-bucket/*",
       "Principal": "*"
     }
   ]
